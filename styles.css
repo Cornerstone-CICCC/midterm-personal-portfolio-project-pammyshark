@@ -169,3 +169,76 @@ border: 1px solid #333;
 background: #333;
 
 }
+
+.experience-section {
+padding: 90px 0;
+}
+
+.experience-row {
+
+padding: 30px;
+margin-bottom: 25px;
+border-radius: 10px;
+transition: 0.25s;
+border: 1px solid transparent;
+
+}
+
+.experience-row:hover {
+
+background: #f8f9fa;
+border: 1px solid #eee;
+transform: translateY(-3px);
+
+}
+
+.experience-meta h5 {
+
+font-weight: 600;
+
+}
+
+.company {
+
+font-weight: 500;
+margin-bottom: 2px;
+
+}
+
+.location {
+
+color: #666;
+font-size: 14px;
+
+}
+
+.date {
+
+color: #888;
+font-size: 14px;
+
+}
+
+.experience-details ul {
+
+padding-left: 18px;
+margin-bottom: 0;
+
+}
+
+.experience-details li {
+
+margin-bottom: 6px;
+
+}
+
+.project-img{
+
+width:100%;
+aspect-ratio: 2 / 1;
+object-fit: cover;
+
+border-radius:8px;
+margin-bottom:15px;
+
+}

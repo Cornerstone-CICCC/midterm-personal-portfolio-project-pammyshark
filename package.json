@@ -1,15 +1,13 @@
 {
-  "name": "wad-201-midterm-portfolio-project",
+  "name": "pam-portfolio",
   "version": "1.0.0",
-  "description": "## Goal",
-  "main": "index.js",
+  "description": "Portfolio built with HTML, Bootstrap, and custom CSS",
   "scripts": {
-    "live": "live-server src --verbose",
-    "dev": "npm run live"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
-    "live-server": "^1.2.2"
+    "vite": "^5.0.0"
   }
 }
